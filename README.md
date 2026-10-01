@@ -12,8 +12,3 @@ require("skills").setup({ roots = { "~/Projects/uji-skills" } })
 The layout follows the [Agent Skills](https://agentskills.io/specification)
 convention, so the same folders work from other harnesses that read
 `~/.agents/skills` or a project's `.agents/skills`.
-
-## web-search
-
-Search the web and read pages, no API key. Uses DuckDuckGo; set `BRAVE_API_KEY`
-to use the Brave Search API instead.
